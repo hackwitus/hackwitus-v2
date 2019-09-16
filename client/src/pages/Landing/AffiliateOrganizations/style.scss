@@ -1,0 +1,41 @@
+.affiliates {
+  margin-bottom: 10rem;
+  width: 100vw;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__title {
+    flex: 0 0 5rem;
+    position: relative;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  &__title::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    bottom: -0.5rem;
+    left: 0;
+    background: hsla(0,0%,56%,.25);
+    height: 2px;
+    width: 7em;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: 10rem;
+    width: 100%;
+  }
+
+  &__image {
+    max-height: 10rem;
+  }
+}

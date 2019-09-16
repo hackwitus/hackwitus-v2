@@ -1,0 +1,114 @@
+.faq {
+  background: linear-gradient(to right, #49a09e, #29799a);
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__upper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__toggle {
+    background-color: #fff;
+    color: #49a09e;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    transition: all 0.25s ease;
+  }
+
+  &__toggle:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+
+  &__toggle:focus {
+    outline: none;
+  }
+
+  &__title {
+    flex: 0 0 60%;
+    color: #fff;
+    position: relative;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  &__title::after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    bottom: -0.5rem;
+    left: 0;
+    background: rgba(255, 255, 255, 0.15);
+    height: 2px;
+    width: 14.8em;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    &--inner {
+      flex: 0 0 48%;
+      flex-direction: row;
+    }
+    margin-bottom: 2rem;
+  }
+
+  &__meta {
+    color: #fff;
+    position: relative;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+
+  &__lower {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.spoiler {
+  margin-bottom: 1rem;
+  color: #fff;
+  &__title {
+    cursor: pointer;
+    font-size: 2rem;
+  }
+
+  &__content {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.25rem;
+    height: 0rem;
+    overflow: hidden;
+    transition: all 0.25s ease;
+  }
+
+  &__content--show {
+    height: 5rem;
+  }
+}

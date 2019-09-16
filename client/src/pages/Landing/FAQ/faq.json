@@ -1,0 +1,63 @@
+{
+  "faqs": {
+    "left": [
+      {
+        "key": "0",
+        "title": "Who can attend?",
+        "content": "Any student 18 years or older"
+      },
+      {
+        "key": "1",
+        "title": "Is this a free event?",
+        "content": "Yes! Attendance, food, swag, and rental hardware is all completely free! 💸"
+      },
+      {
+        "key": "2",
+        "title": "Do I need to be a computer scientist in order to participate?",
+        "content": "Not at all! We aim to host an inclusive environment so anyone from any discipline can attend."
+      },
+      {
+        "key": "3",
+        "title": "Do you offer travel reimbursement?",
+        "content": "Unfortunately, we cannot provide travel reimbursements at this time."
+      },
+      {
+        "key": "4",
+        "title": "What is there is a change of plans or an emergency?",
+        "content": "In the event of a change of plans or an emergency, we will contact you via email. You can also follow us on Twitter for updates."
+      },
+      {
+        "key": "5",
+        "title": "Will there be free food and drinks?",
+        "content": "There will be multiple meals scheduled throughout the event. Drinks and snacks will also be available. 🌯 ☕️"
+      }
+    ],
+    "right": [
+      {
+        "key": "6",
+        "title": "Is there a theme for the hackathon?",
+        "content": "Nope! Create whatever you heart desires."
+      },
+      {
+        "key": "7",
+        "title": "What are the rules?",
+        "content": "The maximum team size is 5 people. All projects must be started from scratch at the start of the hacking period and completed by the designated time. All participants must follow the enforced Code of Conduct."
+      },
+      {
+        "key": "8",
+        "title": "Is there a schedule?",
+        "content": "We currently working on the schedule. Once complete it will be available here on the website and will be sent out via email as well."
+      },
+      {
+        "key": "9",
+        "title": "What should I bring?",
+        "content": "Bring your laptop, chargers, a valid ID (preferably student), and comfortable clothes. We also recommend a sleeping bag and pillow so you can take advantage of our designated napping zones 😴"
+      },
+      {
+        "key": "10",
+        "title": "When and where is it?",
+        "content": "We are still in the early planning stages of the event but are hoping to host it this Fall."
+      }
+    ]
+  }
+}

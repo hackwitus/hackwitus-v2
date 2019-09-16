@@ -1,0 +1,71 @@
+.navbar {
+  max-height: 4rem;
+  padding: 0rem 2rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: transparent;
+  transition: all 1s ease;
+  &__logo {
+    padding: 1rem;
+    &-img {
+      height: 3rem;
+      fill: #fff;
+    }
+    margin-right: 2rem;
+  }
+
+  &__menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__menu > &__link:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  &__link:link, &__link:visited {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid rgba(255,255,255,.25);
+    transition: color 0.25s ease;
+  }
+
+  &__link--active {
+    border-color: #fff !important;
+  }
+
+  &__socials {
+    margin-left: auto;
+  }
+
+  &__social-link:link, &__social-link:visited {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 2rem;
+  }
+
+  &__social-link:hover {
+    color: #fff;
+  }
+
+  &__socials > &__social-link:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+.navbar--scrolled {
+  background-color: rgba(#49a09e, 0.75) !important;
+}
