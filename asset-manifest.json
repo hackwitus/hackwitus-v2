@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hackwitus-v2/static/css/main.85021d7f.chunk.css",
+    "main.js": "/hackwitus-v2/static/js/main.6243f02b.chunk.js",
+    "main.js.map": "/hackwitus-v2/static/js/main.6243f02b.chunk.js.map",
+    "runtime~main.js": "/hackwitus-v2/static/js/runtime~main.a84bb3f3.js",
+    "runtime~main.js.map": "/hackwitus-v2/static/js/runtime~main.a84bb3f3.js.map",
+    "static/js/2.1d453e62.chunk.js": "/hackwitus-v2/static/js/2.1d453e62.chunk.js",
+    "static/js/2.1d453e62.chunk.js.map": "/hackwitus-v2/static/js/2.1d453e62.chunk.js.map",
+    "index.html": "/hackwitus-v2/index.html",
+    "precache-manifest.2d1892a3d4e6989c7331a7a54993dfbe.js": "/hackwitus-v2/precache-manifest.2d1892a3d4e6989c7331a7a54993dfbe.js",
+    "service-worker.js": "/hackwitus-v2/service-worker.js",
+    "static/css/main.85021d7f.chunk.css.map": "/hackwitus-v2/static/css/main.85021d7f.chunk.css.map",
+    "static/media/accelerate-logo.png": "/hackwitus-v2/static/media/accelerate-logo.eaabc14e.png",
+    "static/media/coops-careers-logo.png": "/hackwitus-v2/static/media/coops-careers-logo.a1b52f11.png",
+    "static/media/hackwit-text.033ebc5c.svg": "/hackwitus-v2/static/media/hackwit-text.033ebc5c.svg",
+    "static/media/hackwitus-organizers.jpg": "/hackwitus-v2/static/media/hackwitus-organizers.3a0b0e17.jpg",
+    "static/media/leologo.0e4394b1.svg": "/hackwitus-v2/static/media/leologo.0e4394b1.svg"
+  }
+}
