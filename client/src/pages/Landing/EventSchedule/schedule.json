@@ -1,0 +1,10 @@
+{
+  "events": [
+    { "id": "0", "time": "2017-09-17T12:22:46.587Z", "text": "Logged in" },
+    { "id": "1", "time": "2017-09-17T12:21:46.587Z", "text": "Clicked Home Page" },
+    { "id": "2", "time": "2017-09-17T12:20:46.587Z", "text": "Edited Profile" },
+    { "id": "3", "time": "2017-09-16T12:22:46.587Z", "text": "Registred" },
+    { "id": "4", "time": "2017-09-16T12:21:46.587Z", "text": "Clicked Cart" },
+    { "id": "5", "time": "2017-09-16T12:20:46.587Z", "text": "Clicked Checkout" }
+  ]
+}

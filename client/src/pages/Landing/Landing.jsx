@@ -5,6 +5,7 @@ import About from './About';
 import AffiliateOrganizations from './AffiliateOrganizations';
 import FAQ from './FAQ';
 import DiscordWidget from '../../components/DiscordWidget';
+import EventSchedule from './EventSchedule';
 
 const Landing = () => {
   return (
@@ -13,6 +14,7 @@ const Landing = () => {
       <About />
       <AffiliateOrganizations />
       <FAQ />
+      <EventSchedule />
       <DiscordWidget />
     </>
   )

@@ -1,0 +1,94 @@
+.event {
+  width: 100%;
+  color: white;
+  &__title {
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  &__content {
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+  }
+}
+
+.event:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.event-schedule {
+  padding: 0 5rem 5rem 5rem;
+  background: linear-gradient(to right, #49a09e, #29799a);
+
+  &__upper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  &__title {
+    color: white;
+    position: relative;
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  &__title::after {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    bottom: -0.5rem;
+    left: 0;
+    background: rgba(255,255,255, 0.25);
+    height: 2px;
+    width: 6em;
+  }
+
+  &__selector > &__day:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  &__day {
+    background-color: #fff;
+    color: #49a09e;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    transition: all 0.25s ease;
+  }
+
+  &__day--active {
+    background-color: #49a09e !important;
+    color: white !important;
+  }
+
+  &__day:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+
+  &__day:focus {
+    outline: none;
+  }
+}

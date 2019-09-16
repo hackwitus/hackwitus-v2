@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "@widgetbot/react-embed": "^1.2.1",
+    "datejs": "^1.0.0-rc3",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
+    "react-time-line": "^0.2.0",
     "semantic-ui-react": "^0.88.0"
   },
   "homepage": "http://hackwitus.github.io/hackwitus-v2",
