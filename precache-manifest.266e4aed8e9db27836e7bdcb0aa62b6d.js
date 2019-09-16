@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d14be893ad471789e241e095788f2f61",
+    "revision": "ed8b88baf7ff5a609fed12885be30631",
     "url": "/hackwitus-v2/index.html"
   },
   {
-    "revision": "d554175d45be790b85bf",
-    "url": "/hackwitus-v2/static/css/main.85021d7f.chunk.css"
+    "revision": "f55a98cf0aeee51e1490",
+    "url": "/hackwitus-v2/static/css/main.fac99b75.chunk.css"
   },
   {
-    "revision": "5951247643b8273c0007",
-    "url": "/hackwitus-v2/static/js/2.1d453e62.chunk.js"
+    "revision": "5bb772f946c8e6e0284a",
+    "url": "/hackwitus-v2/static/js/2.c879bcf2.chunk.js"
   },
   {
-    "revision": "d554175d45be790b85bf",
-    "url": "/hackwitus-v2/static/js/main.7e7f7cfe.chunk.js"
+    "revision": "f55a98cf0aeee51e1490",
+    "url": "/hackwitus-v2/static/js/main.3770daf8.chunk.js"
   },
   {
     "revision": "bc5a0dc6d3c5946533c3",
