@@ -31,7 +31,7 @@ export default () => {
     }
   };
   return (
-    <Router>
+    <Router basename="hackwitus-v2">
       <div>
         <Navbar scrolled={scrolled} />
         <Route exact path="/" component={Landing} />
