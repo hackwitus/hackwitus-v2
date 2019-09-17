@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/hackwitus-v2/static/css/main.fac99b75.chunk.css",
-    "main.js": "/hackwitus-v2/static/js/main.3770daf8.chunk.js",
-    "main.js.map": "/hackwitus-v2/static/js/main.3770daf8.chunk.js.map",
+    "main.css": "/hackwitus-v2/static/css/main.54594793.chunk.css",
+    "main.js": "/hackwitus-v2/static/js/main.2801ce29.chunk.js",
+    "main.js.map": "/hackwitus-v2/static/js/main.2801ce29.chunk.js.map",
     "runtime~main.js": "/hackwitus-v2/static/js/runtime~main.a84bb3f3.js",
     "runtime~main.js.map": "/hackwitus-v2/static/js/runtime~main.a84bb3f3.js.map",
-    "static/js/2.c879bcf2.chunk.js": "/hackwitus-v2/static/js/2.c879bcf2.chunk.js",
-    "static/js/2.c879bcf2.chunk.js.map": "/hackwitus-v2/static/js/2.c879bcf2.chunk.js.map",
+    "static/js/2.65069c76.chunk.js": "/hackwitus-v2/static/js/2.65069c76.chunk.js",
+    "static/js/2.65069c76.chunk.js.map": "/hackwitus-v2/static/js/2.65069c76.chunk.js.map",
     "index.html": "/hackwitus-v2/index.html",
-    "precache-manifest.266e4aed8e9db27836e7bdcb0aa62b6d.js": "/hackwitus-v2/precache-manifest.266e4aed8e9db27836e7bdcb0aa62b6d.js",
+    "precache-manifest.c306e5d36b516ea4455738daf12458d1.js": "/hackwitus-v2/precache-manifest.c306e5d36b516ea4455738daf12458d1.js",
     "service-worker.js": "/hackwitus-v2/service-worker.js",
-    "static/css/main.fac99b75.chunk.css.map": "/hackwitus-v2/static/css/main.fac99b75.chunk.css.map",
+    "static/css/main.54594793.chunk.css.map": "/hackwitus-v2/static/css/main.54594793.chunk.css.map",
     "static/media/accelerate-logo.png": "/hackwitus-v2/static/media/accelerate-logo.eaabc14e.png",
+    "static/media/comp-sci-dept-logo.jpg": "/hackwitus-v2/static/media/comp-sci-dept-logo.8b6fbb5a.jpg",
     "static/media/coops-careers-logo.png": "/hackwitus-v2/static/media/coops-careers-logo.a1b52f11.png",
+    "static/media/github-logo.png": "/hackwitus-v2/static/media/github-logo.cefc2023.png",
     "static/media/hackwit-text.033ebc5c.svg": "/hackwitus-v2/static/media/hackwit-text.033ebc5c.svg",
     "static/media/hackwitus-organizers.jpg": "/hackwitus-v2/static/media/hackwitus-organizers.3a0b0e17.jpg",
-    "static/media/leologo.0e4394b1.svg": "/hackwitus-v2/static/media/leologo.0e4394b1.svg"
+    "static/media/hackwitus-project-teams.jpg": "/hackwitus-v2/static/media/hackwitus-project-teams.faa3372e.jpg",
+    "static/media/leologo-white.f434a5c8.svg": "/hackwitus-v2/static/media/leologo-white.f434a5c8.svg",
+    "static/media/particle-io-logo.png": "/hackwitus-v2/static/media/particle-io-logo.95a0b2bb.png",
+    "static/media/sketch-logo.png": "/hackwitus-v2/static/media/sketch-logo.fc3f2afc.png",
+    "static/media/wit-leadership-logo.png": "/hackwitus-v2/static/media/wit-leadership-logo.6ae25835.png"
   }
 }
