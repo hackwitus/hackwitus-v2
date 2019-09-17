@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f3677773e722d77a5c2ea58540bb7be",
+    "revision": "ba6c64d1ced31dc8c2e05e67fbc7e228",
     "url": "/hackwitus-v2/index.html"
   },
   {
-    "revision": "8f24b2a4f2b7a06d7cc4",
-    "url": "/hackwitus-v2/static/css/main.7fcb5ad0.chunk.css"
+    "revision": "9af141a35681c5403db5",
+    "url": "/hackwitus-v2/static/css/main.c028b9e8.chunk.css"
   },
   {
-    "revision": "3ff606b0da9ffa5165fc",
-    "url": "/hackwitus-v2/static/js/2.65069c76.chunk.js"
+    "revision": "6393c57cea3a999bd886",
+    "url": "/hackwitus-v2/static/js/2.3a57da33.chunk.js"
   },
   {
-    "revision": "8f24b2a4f2b7a06d7cc4",
-    "url": "/hackwitus-v2/static/js/main.46e74097.chunk.js"
+    "revision": "9af141a35681c5403db5",
+    "url": "/hackwitus-v2/static/js/main.30e73cd2.chunk.js"
   },
   {
     "revision": "bc5a0dc6d3c5946533c3",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "033ebc5c88d8d293e10510bca2946a66",
     "url": "/hackwitus-v2/static/media/hackwit-text.033ebc5c.svg"
+  },
+  {
+    "revision": "3e67447e4ef6bedc247394c59cfe0f53",
+    "url": "/hackwitus-v2/static/media/hackwitus-keynote.3e67447e.jpg"
   },
   {
     "revision": "3a0b0e1733f83f5bfe3d17bdfb8497e9",
