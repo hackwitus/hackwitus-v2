@@ -1,7 +1,7 @@
 import React from 'react';
 import NavLink from './NavLink';
 
-import {ReactComponent as Logo} from '../../assets/images/logos/leologo.svg';
+import {ReactComponent as Logo} from '../../assets/images/logos/leologo-white.svg';
 import './style.scss';
 
 const Navbar = (props) => {

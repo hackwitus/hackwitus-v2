@@ -16,7 +16,8 @@ const About = props => {
             aria-label={props.label ? props.label : ""}
             aria-hidden={props.label ? "false" : "true"}>
             🤔
-          </span> HackWITus?
+          </span> 
+          &nbsp; HackWITus?
         </h2>
         <p className="about__body">
           HackWITus is a community oriented organization that aims to make a

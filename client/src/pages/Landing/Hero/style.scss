@@ -1,10 +1,25 @@
 .hero {
+  position: relative;
   margin-bottom: 5rem;
   width: 100vw;
-  height: 90vh;
-  background: linear-gradient(to right, #49a09e, #29799a);
+  height: 60rem;
+  background: linear-gradient(to right, #49a09f, rgb(40, 119, 153));
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  // border-bottom-right-radius: 30%;
   text-align: center;
+
+  // &::before {
+  //   content: "";
+  //   display: block;
+  //   position: absolute;
+  //   bottom: -10rem;
+  //   left: 0;
+  //   height: 15rem;
+  //   width: 15rem;
+  //   border-bottom-right-radius: 40%;
+  //   background: linear-gradient(to right, #49a09e, #29799a);
+  //   z-index: 1001;
+  // }
 
   &__content {
     height: 100%;

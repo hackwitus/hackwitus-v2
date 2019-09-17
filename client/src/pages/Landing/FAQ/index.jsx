@@ -35,7 +35,7 @@ const FAQ = props => {
           >
             🙋‍♀
           </span>
-          Frequently Asked Questions
+          &nbsp; Frequently Asked Questions
         </h1>
         <button
           className="faq__toggle"
