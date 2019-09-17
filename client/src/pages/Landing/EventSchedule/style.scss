@@ -91,4 +91,9 @@
   &__day:focus {
     outline: none;
   }
+
+  &__day:active {
+    outline: none;
+    transform: translateY(0.25rem);
+  }
 }

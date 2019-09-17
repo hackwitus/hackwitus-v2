@@ -9,7 +9,7 @@ const DiscordWidget = () => {
     setShow(!show);
   }
   return (
-    <div className="discord-widget">
+    <div className="discord-widget" style={{height: show ? '42rem' : '5rem'}}>
       <button className="discord-widget__toggle" onClick={toggleWidget}>{show ? "Close Widget" : "Open Widget"}</button>
       <WidgetBot
         style={{height: '42rem', display: show ? 'block' : 'none'}}
