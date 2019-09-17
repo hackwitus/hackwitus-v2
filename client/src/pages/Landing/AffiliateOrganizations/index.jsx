@@ -8,16 +8,20 @@ const AffiliateOrganizations = props => {
     <div className="affiliates">
       <h1 className="affiliates__title">Our Affiliates</h1>
       <div className="affiliates__list">
-        <img
-          src={AccelerateLogo}
-          alt="Accelerate Logo"
-          className="affiliates__image"
-        />
-        <img
-          src={CoopsCareersLogo}
-          alt="Coops-Careers Logo"
-          className="affiliates__image"
-        />
+        <a href="/" className="affiliates__link">
+          <img
+            src={AccelerateLogo}
+            alt="Accelerate Logo"
+            className="affiliates__image"
+          />
+        </a>
+        <a href="/" className="affiliates__link">
+          <img
+            src={CoopsCareersLogo}
+            alt="Coops-Careers Logo"
+            className="affiliates__image"
+          />
+        </a>
       </div>
     </div>
   );

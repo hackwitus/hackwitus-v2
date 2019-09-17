@@ -9,6 +9,7 @@ import WhatToExpect from './WhatToExpect';
 import Sponsors from './Sponsors';
 import Footer from './Footer';
 import DiscordWidget from '../../components/DiscordWidget';
+import BecomeAnOrganizer from './BecomeAnOrganizer';
 
 const Landing = () => {
   return (
@@ -20,6 +21,7 @@ const Landing = () => {
       <EventSchedule />
       <WhatToExpect />
       <Sponsors />
+      <BecomeAnOrganizer />
       <Footer />
       <DiscordWidget />
     </>

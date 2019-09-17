@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './style.scss';
-import HackWITusOrganizersPhoto from '../../../assets/images/hackwitus-organizers.jpg';
+import HackwitusKeynote from '../../../assets/images/hackwitus-keynote.jpg';
 
 const About = props => {
   return (
     <div className="about">
       <div className="about__image">
-        <img src={HackWITusOrganizersPhoto} alt="HackWITus Oragnizers" className="about__image"/>
+        <img src={HackwitusKeynote} alt="HackWITus Oragnizers" className="about__image"/>
       </div>
       <div className="about__content">
         <h2 className="about__title">

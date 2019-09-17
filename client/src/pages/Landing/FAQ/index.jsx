@@ -8,7 +8,12 @@ const FAQ = props => {
   const [shown, setShown] = useState('1');
 
   const handleClicked = key => {
-    setShown(key + '');
+    console.log(shown, key);
+    if (shown === key) {
+      setShown('');
+    } else {
+      setShown(key + '');
+    }
   };
 
   const renderSpoilers = side => {

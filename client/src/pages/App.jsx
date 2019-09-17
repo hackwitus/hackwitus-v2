@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import * as _ from 'lodash';
 
-import Navbar from '../components/NewNavbar';
+import Navbar from '../components/Navbar';
 import Landing from './Landing/Landing';
 
 export default () => {

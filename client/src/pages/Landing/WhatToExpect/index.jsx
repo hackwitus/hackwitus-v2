@@ -3,11 +3,11 @@ import React from 'react';
 import './style.scss';
 import HackwitusProjectTeams from '../../../assets/images/hackwitus-project-teams.jpg';
 
-const About = props => {
+const Expect = props => {
   return (
-    <div className="about">
-      <div className="about__content">
-        <h2 className="about__title">
+    <div className="expect">
+      <div className="expect__content">
+        <h2 className="expect__title">
           <span
             role="img"
             aria-label={props.label ? props.label : ''}
@@ -17,7 +17,7 @@ const About = props => {
           </span>
           &nbsp; What To Expect?
         </h2>
-        <p className="about__body">
+        <p className="expect__body">
           HackWITus is a 24 hour, student organized hackathon for all university
           students. Hosted by Wentworth Institute of Technology and Accelerate
           Innovation and Entrepreneurship Center, HackWITus strives to provide
@@ -26,15 +26,15 @@ const About = props => {
           network with the top tech companies Boston has to offer!
         </p>
       </div>
-      <div className="about__image">
+      <div className="expect__image">
         <img
           src={HackwitusProjectTeams}
           alt="HackWITus Project Teams"
-          className="about__image"
+          className="expect__image"
         />
       </div>
     </div>
   );
 };
 
-export default About;
+export default Expect;

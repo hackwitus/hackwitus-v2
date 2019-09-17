@@ -8,6 +8,7 @@
   align-items: center;
 
   &__title {
+    display: inline;
     flex: 0 0 5rem;
     position: relative;
     font-family: 'Montserrat', 'Lato', sans-serif;
@@ -23,7 +24,7 @@
     left: 0;
     background: hsla(0,0%,56%,.25);
     height: 2px;
-    width: 7em;
+    width: 100%;
   }
 
   &__list {
