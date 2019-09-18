@@ -14,7 +14,7 @@ export default props => {
       if (new Date(event.time).getUTCDay() === parseInt(day)) {
         return (
           <Event
-            key={event.key}
+            key={event.id}
             title={event.text}
             content={new Date(event.time).toString()}
           />

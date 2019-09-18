@@ -1,5 +1,4 @@
 .organizer {
-  margin-bottom: 5rem;
   padding: 5rem;
   background: linear-gradient(to right, #49a09f, #287799);
   display: flex;
@@ -9,8 +8,9 @@
   color: white;
 
   &__image {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     height: 40rem;
+    width: 40rem;
   }
 
   &__content {

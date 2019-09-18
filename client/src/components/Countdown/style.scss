@@ -1,0 +1,48 @@
+.countdown {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 5rem;
+  color: white;
+
+  &__title {
+    margin: 0;
+    min-width: 22rem;
+  }
+
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__container > &__column:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  &__label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  &__value {
+    margin: 0;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+}

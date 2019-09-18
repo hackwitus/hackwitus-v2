@@ -27,6 +27,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-right: auto;
   }
 
   &__menu > &__link:not(:last-child) {
@@ -68,4 +69,5 @@
 
 .navbar--scrolled {
   background-color: rgba(#49a09e, 0.75) !important;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.2);
 }

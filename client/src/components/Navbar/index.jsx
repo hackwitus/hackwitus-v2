@@ -3,6 +3,7 @@ import NavLink from './NavLink';
 
 import {ReactComponent as Logo} from '../../assets/images/logos/leologo-white.svg';
 import './style.scss';
+import CountdownTimer from '../Countdown';
 
 const Navbar = (props) => {
   return (
@@ -15,15 +16,18 @@ const Navbar = (props) => {
         <NavLink to="/api" label="API" />
         <NavLink to="/about" label="About" />
       </ul>
+      <div className="navbar__countdown">
+        <CountdownTimer date={process.env.REACT_APP_EVENT_DATE} />
+      </div>
       <ul className="navbar__socials">
         <a href="https://twitter.com/hackwitus" className="navbar__social-link">
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </a>
         <a href="https://instagram.com/hackwitus" className="navbar__social-link">
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram"></i>
         </a>
         <a href="mailto:contact@hackwit.us" className="navbar__social-link">
-          <i class="fad fa-paper-plane"></i>
+          <i className="fad fa-paper-plane"></i>
         </a>
       </ul>
     </div>
