@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hackwitus-v2/precache-manifest.c1ff240a66e3fcdc89f7f25dbf276dfe.js"
+  "/hackwitus-v2/precache-manifest.3fe5be48f0ef6310dcd68a5676f52ce1.js"
 );
 
 self.addEventListener('message', (event) => {
