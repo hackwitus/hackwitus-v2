@@ -1,0 +1,41 @@
+{
+  "organizers": [
+    {
+      "first": "Shawn",
+      "last": "Toubeau",
+      "role": "Lead Organizer",
+      "bio": "Shawn is a Senior in Computer Science at Wentworth. His interests are in Full Stack development and in his free time he likes to help plan hackathons, cook and bake at home, and go to concerts.",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fff178140-ad7e-44aa-9378-c587079c611b%2F00100lPORTRAIT_00100_BURST20190515145231186_COVER-min.jpg?table=block&id=229ab8ca-048a-48b9-83d2-d02a3cb7b515&width=790&cache=v2"
+    },
+    {
+      "first": "Mike",
+      "last": "Upton",
+      "role": "Head of Technology",
+      "bio": "Mike is a current senior at Wentworth Institute of Technology, majoring in Computer Science. He is a GitHub Campus Expert, and an avid supporter of open-source software.",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2ab551e8-0300-4398-9740-82ce9f37faa2%2FImage_from_iOS.jpg?table=block&id=cdac301e-f31c-483d-9dfd-e48886fbae36&width=790&cache=v25",
+      "linkedin": "https://linkedin.com/in/uptonm",
+      "github": "https://github.com/uptonm"
+    },
+    {
+      "first": "Brian",
+      "last": "Meehan",
+      "role": "Organizer",
+      "bio": "Brian is a Computer Science Major at Wentworth. He is very interested in Android app development with Kotlin. Most importantly, he is super excited to be involved in his first hackathon with the HackWITus team!",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5644b476-121a-4875-866a-3ad4668f8aed%2Fprofile_pic.jpg?table=block&id=5f52ebc0-ad02-443d-9ff4-a549aa8fca2e&width=790&cache=v2"
+    },
+    {
+      "first": "Nathan",
+      "last": "Robinson",
+      "role": "Organizer",
+      "bio": "Nathan is a Sophomore Computer Science Major at Wentworth. His interests include Embedded Development, sensors, and IoT. In his free time he likes to read, make internet-connected applications, and play video games. Nathan reached out to Particle to secure a sponsorship of IoT development kits, sensors and swag. He hopes to lead a Particle workshop to demonstrate Particle tools to hackathon attendees.",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fd33wubrfki0l68.cloudfront.net%2Fbc4bd2a498252b6f9630d9a33d7da8576e0a0e50%2F1f02f%2Fimages%2Fprofile.png?table=block&id=d68abf6f-ccde-446c-95eb-8240a91c181c&width=790&cache=v2"
+    },
+    {
+      "first": "Nova",
+      "last": "Trauben",
+      "role": "Organizer",
+      "bio": "Nova is a human who enjoys cryptography, security and programming! They want to go into the penetration testing field as a career.",
+      "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcc684057-d1df-4bc4-b40c-3562ad247331%2Fme!!!!.jpg?table=block&id=bc83a484-3f62-43b2-8e04-50e790ed70b6&width=790&cache=v2"
+    }
+  ]
+}

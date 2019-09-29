@@ -11,6 +11,7 @@ import Footer from './Footer';
 import DiscordWidget from '../../components/DiscordWidget';
 import BecomeAnOrganizer from './BecomeAnOrganizer';
 import Countdown from '../../components/Countdown';
+import OrganizerProfiles from './OrganizerProfiles';
 
 const Landing = () => {
   return (
@@ -23,11 +24,11 @@ const Landing = () => {
       <WhatToExpect key={5} />
       <Sponsors key={6} />
       <BecomeAnOrganizer key={7} />
+      <OrganizerProfiles />
       <Footer key={8} />
       <DiscordWidget key={9} />
-      <Countdown date={new Date(process.env.REACT_APP_EVENT_DATE)}/>
     </>
-  )
-}
+  );
+};
 
 export default Landing;

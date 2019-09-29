@@ -1,0 +1,97 @@
+.organizer-profiles {
+  padding: 5rem;
+  margin-bottom: 5rem;
+  background: linear-gradient(to right, #49a09f, #287799);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.organizer-title {
+  color: #fff;
+  flex: 0 0 5rem;
+  display: inline;
+  position: relative;
+  font-family: 'Montserrat', 'Lato', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.organizer-title::after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  bottom: -0.5rem;
+  left: 0;
+  background: rgba(255, 255, 255, 0.25);
+  height: 2px;
+  width: 100%;
+}
+
+.profile-card {
+  margin-top: 3rem;
+  padding: 3rem;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 2rem;
+}
+
+.organizer-profile-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 3rem;
+}
+
+.profile-name {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.profile-role {
+  color: #287799;
+  margin-top: 0;
+}
+
+.profile-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile-name {
+}
+
+.profile-bio {
+  margin-bottom: 3rem;
+}
+
+.profile-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  & > *:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+.profile-link {
+  font-size: 2rem;
+  color: #287799;
+  border-bottom: 0.2rem solid transparent;
+
+  &:hover {
+    color: #49a09f;
+    border-bottom: 0.2rem solid #49a09f;
+  }
+}
