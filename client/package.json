@@ -15,7 +15,6 @@
     "semantic-ui-react": "^0.88.0",
     "uuid": "^3.3.3"
   },
-  "homepage": "http://hackwitus.github.io/hackwitus-v2",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

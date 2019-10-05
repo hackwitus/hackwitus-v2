@@ -44,16 +44,18 @@
       "last": "Trauben",
       "role": "Organizer",
       "bio": "Nova is a human who enjoys cryptography, security and programming! They want to go into the penetration testing field as a career.",
-      "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcc684057-d1df-4bc4-b40c-3562ad247331%2Fme!!!!.jpg?table=block&id=bc83a484-3f62-43b2-8e04-50e790ed70b6&width=790&cache=v2"
-    }, 
+      "image": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcc684057-d1df-4bc4-b40c-3562ad247331%2Fme!!!!.jpg?table=block&id=bc83a484-3f62-43b2-8e04-50e790ed70b6&width=790&cache=v2",
+      "github": "github.com/1fabunicorn",
+      "linkedin": "https://www.linkedin.com/in/nova-trauben/"
+    },
     {
-  "first": "Roman",
-  "last": "Mondello",
-  "role": "Organizer",
-  "bio": "Roman is an indivdual who is passionate about life and creating.",
-  "image": "https://i.imgur.com/wmVstKw.jpg",
-  "linkedin": "https://www.linkedin.com/in/roman-mondello-08621b168/",
-  "github": "https://github.com/integrate-your-mind"
-  }
+      "first": "Roman",
+      "last": "Mondello",
+      "role": "Organizer",
+      "bio": "Roman is an indivdual who is passionate about life and creating.",
+      "image": "https://i.imgur.com/wmVstKw.jpg",
+      "linkedin": "https://www.linkedin.com/in/roman-mondello-08621b168/",
+      "github": "https://github.com/integrate-your-mind"
+    }
   ]
 }
