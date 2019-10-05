@@ -10,7 +10,6 @@ import Sponsors from './Sponsors';
 import Footer from './Footer';
 import DiscordWidget from '../../components/DiscordWidget';
 import BecomeAnOrganizer from './BecomeAnOrganizer';
-import Countdown from '../../components/Countdown';
 import OrganizerProfiles from './OrganizerProfiles';
 
 const Landing = () => {
